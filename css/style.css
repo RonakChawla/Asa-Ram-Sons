@@ -670,6 +670,7 @@ h6 {
 
 #why-us .counters {
   padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 #why-us .counters span {
@@ -1612,5 +1613,13 @@ h6 {
   #portfolio .brands{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  #why-us .row{
+    margin-bottom: 40px;
+  }
+
+  #why-us .row span{
+    font-size: 24px;
   }
 }
