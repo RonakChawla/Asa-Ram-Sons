@@ -17,7 +17,7 @@
         
         body{
             background: #f5f8fd;
-            overflow: unset;
+            overflow: auto;
             width: 100%;
             height: 100%;
         }
@@ -66,14 +66,24 @@
         }
 
         @media(max-width: 800px){
-            p, .button{
-                width: 40%;
+            p{
+                width: 80%;
+            }
+            
+            .button{
+                width: auto;
+                padding: 10px;
             }
         }
         
         @media(max-width: 414px){
-            p, .button{
-                width: 50%;
+            p{
+                width: 80%;
+            }
+            
+            .button{
+                width: auto;
+                padding: 10px;
             }
         }
     </style>
