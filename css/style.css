@@ -689,56 +689,6 @@ h6 {
   color: #8a87b6;
 }
 
-/* Call To Action Section
---------------------------------*/
-
-#call-to-action {
-  background: #2d2b46;
-  background-size: cover;
-  padding: 40px 0;
-}
-
-#call-to-action .cta-title {
-  color: #fff;
-  font-size: 28px;
-  font-weight: 700;
-}
-
-#call-to-action .cta-text {
-  color: #fff;
-}
-
-#call-to-action .cta-btn {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 26px;
-  border-radius: 3px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 3px solid #fff;
-  color: #fff;
-}
-
-#call-to-action .cta-btn:hover {
-  background: #1bb1dc;
-  border: 3px solid #1bb1dc;
-}
-
-/* Features Section
---------------------------------*/
-
-#features {
-  padding: 80px 0;
-}
-
-#features h4 {
-  font-weight: 600;
-  font-size: 24px;
-}
-
 /* Portfolio Section
 --------------------------------*/
 
@@ -746,57 +696,29 @@ h6 {
   padding: 60px 0;
 }
 
-#portfolio #portfolio-flters {
-  padding: 0;
-  margin: 5px 0 35px 0;
-  list-style: none;
+#portfolio .member {
   text-align: center;
-}
-
-#portfolio #portfolio-flters li {
-  cursor: pointer;
-  margin: 15px 15px 15px 0;
-  display: inline-block;
-  padding: 6px 10px;
-  font-size: 16px;
-  line-height: 20px;
-  color: #413e66;
-  margin-bottom: 5px;
-  transition: all 0.3s ease-in-out;
-}
-
-#portfolio #portfolio-flters li:hover,
-#portfolio #portfolio-flters li.filter-active {
-  color: #1bb1dc;
-}
-
-#portfolio #portfolio-flters li:last-child {
-  margin-right: 0;
-}
-
-#portfolio .portfolio-item {
+  margin-bottom: 80px;
   position: relative;
   overflow: hidden;
-  margin-bottom: 30px;
 }
 
-#portfolio .portfolio-item .portfolio-wrap {
-  overflow: hidden;
-  position: relative;
+#portfolio .member img{
+  height: 180px;
+}
+
+#portfolio .other_brands{
+  padding-top: 60px;
+}
+
+#portfolio .paragraph-secondary{
+  font-size: 30px;
   margin: 0;
+  text-align: center;
+  line-height: 10px;
 }
 
-#portfolio .portfolio-item .portfolio-wrap:hover img {
-  opacity: 0.4;
-  transition: 0.3s;
-}
-
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+#portfolio .member .member-info {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -804,168 +726,12 @@ h6 {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
-  justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  text-align: center;
-  opacity: 0;
-  transition: 0.2s linear;
-}
-
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 {
-  font-size: 22px;
-  line-height: 1px;
-  font-weight: 700;
-  margin-bottom: 14px;
-  padding-bottom: 0;
-}
-
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a {
-  color: #fff;
-}
-
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
-  color: #1bb1dc;
-}
-
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
-  padding: 0;
-  margin: 0;
-  color: #f8fcff;
-  font-weight: 500;
-  font-size: 14px;
-  text-transform: uppercase;
-}
-
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details {
-  display: inline-block;
-  line-height: 1;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  background: #1bb1dc;
-  border-radius: 50%;
-  margin: 10px 4px 0 4px;
-}
-
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview i,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details i {
-  padding-top: 6px;
-  font-size: 22px;
-  color: #fff;
-}
-
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
-  background: #42c3e8;
-}
-
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
-  color: #fff;
-}
-
-#portfolio .portfolio-item .portfolio-wrap:hover {
-  background: #282646;
-}
-
-#portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
-  opacity: 1;
-}
-
-/* Testimonials Section
---------------------------------*/
-
-#testimonials {
-  padding: 60px 0;
-}
-
-#testimonials .section-header {
-  margin-bottom: 40px;
-}
-
-#testimonials .testimonial-item .testimonial-img {
-  width: 120px;
-  border-radius: 50%;
-  border: 4px solid #fff;
-  float: left;
-}
-
-#testimonials .testimonial-item h3 {
-  font-size: 20px;
-  font-weight: bold;
-  margin: 10px 0 5px 0;
-  color: #111;
-  margin-left: 140px;
-}
-
-#testimonials .testimonial-item h4 {
-  font-size: 14px;
-  color: #999;
-  margin: 0 0 15px 0;
-  margin-left: 140px;
-}
-
-#testimonials .testimonial-item p {
-  font-style: italic;
-  margin: 0 0 15px 140px;
-}
-
-#testimonials .owl-nav,
-#testimonials .owl-dots {
-  margin-top: 5px;
-  text-align: center;
-}
-
-#testimonials .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd;
-}
-
-#testimonials .owl-dot.active {
-  background-color: #1bb1dc;
-}
-
-/* Team Section
---------------------------------*/
-
-#team {
-  padding: 60px 0;
-}
-
-#team .member {
-  text-align: center;
-  margin-bottom: 20px;
-  position: relative;
-  overflow: hidden;
-}
-
-#team .member .member-info {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
-  position: absolute;
+  position: absolute; 
   bottom: 0;
   left: 0;
   right: 0;
@@ -974,241 +740,25 @@ h6 {
   background: rgba(29, 28, 41, 0.6);
 }
 
-#team .member .member-info-content {
+#portfolio .member .member-info-content {
   transition: margin 0.2s;
-  height: 40px;
+  height: 4px;
   transition: height 0.4s;
 }
 
-#team .member:hover .member-info {
+#portfolio .member:hover .member-info {
   transition: 0.4s;
 }
 
-#team .member:hover .member-info-content {
-  height: 80px;
+#portfolio .member:hover .member-info-content {
+  height: 70px;
 }
 
-#team .member h4 {
+#portfolio .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
-  font-size: 18px;
+  font-size: 14px;
   color: #fff;
-}
-
-#team .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-  color: #fff;
-}
-
-#team .member .social {
-  margin-top: 15px;
-}
-
-#team .member .social a {
-  transition: none;
-  color: #fff;
-}
-
-#team .member .social a:hover {
-  color: #1bb1dc;
-}
-
-#team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
-}
-
-/* Clients Section
---------------------------------*/
-
-#clients {
-  padding: 60px 0;
-}
-
-#clients img {
-  max-width: 80%;
-  opacity: 0.5;
-  transition: 0.3s;
-  padding: 15px 0;
-}
-
-#clients img:hover {
-  opacity: 1;
-}
-
-#clients .owl-nav,
-#clients .owl-dots {
-  margin-top: 5px;
-  text-align: center;
-}
-
-#clients .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd;
-}
-
-#clients .owl-dot.active {
-  background-color: #1bb1dc;
-}
-
-/* Pricing Section
---------------------------------*/
-
-#pricing {
-  padding: 80px 0;
-}
-
-#pricing .card {
-  border: 0;
-  border-radius: 0px;
-  box-shadow: 0 3px 0px 0 rgba(65, 62, 102, 0.08);
-  transition: all .3s ease-in-out;
-  padding: 36px 0;
-  position: relative;
-}
-
-#pricing .card:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0%;
-  height: 5px;
-  background-color: #1bb1dc;
-  transition: 0.5s;
-}
-
-#pricing .card:hover {
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
-  box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.08);
-}
-
-#pricing .card:hover:after {
-  width: 100%;
-}
-
-#pricing .card .card-header {
-  background-color: white;
-  border-bottom: 0px;
-  -moz-text-align-last: center;
-  text-align-last: center;
-}
-
-#pricing .card .card-title {
-  margin-bottom: 16px;
-  color: #535074;
-}
-
-#pricing .card .card-block {
-  padding-top: 0;
-  text-align: center;
-}
-
-#pricing .card .list-group-item {
-  border: 0px;
-  padding: 6px;
-  color: #413e66;
-  font-weight: 300;
-}
-
-#pricing .card h3 {
-  font-size: 64px;
-  margin-bottom: 0px;
-  color: #535074;
-}
-
-#pricing .card h3 .currency {
-  font-size: 30px;
-  position: relative;
-  font-weight: 400;
-  top: -30px;
-  letter-spacing: 0px;
-}
-
-#pricing .card h3 .period {
-  font-size: 16px;
-  color: #6c67a3;
-  letter-spacing: 0px;
-}
-
-#pricing .card .list-group {
-  margin-bottom: 15px;
-}
-
-#pricing .card .btn {
-  text-transform: uppercase;
-  font-size: 13px;
-  font-weight: 500;
-  color: #5f5b96;
-  border-radius: 0;
-  padding: 10px 24px;
-  letter-spacing: 1px;
-  border-radius: 3px;
-  display: inline-block;
-  background: #1bb1dc;
-  color: #fff;
-}
-
-#pricing .card .btn:hover {
-  background: #0a98c0;
-}
-
-/* Frequently Asked Questions Section
---------------------------------*/
-
-#faq {
-  padding: 60px 0;
-  overflow: hidden;
-}
-
-#faq #faq-list {
-  padding: 0;
-  list-style: none;
-}
-
-#faq #faq-list li {
-  border-bottom: 1px solid #ebebeb;
-}
-
-#faq #faq-list a {
-  padding: 22px 0;
-  display: block;
-  position: relative;
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  line-height: 1;
-  font-weight: 400;
-  padding-right: 20px;
-}
-
-#faq #faq-list i {
-  font-size: 24px;
-  position: absolute;
-  right: 0;
-  top: 20px;
-}
-
-#faq #faq-list p {
-  margin-bottom: 20px;
-}
-
-#faq #faq-list a.collapse {
-  color: #1bb1dc;
-}
-
-#faq #faq-list a.collapsed {
-  color: #000;
-}
-
-#faq #faq-list a.collapsed i::before {
-  content: "\f2c7" !important;
 }
 
 /*--------------------------------------------------------------
@@ -1343,32 +893,6 @@ h6 {
   margin-bottom: 15px;
 }
 
-#footer .footer-top #form #sendmessage {
-  color: #fff;
-  background: #1bb1dc;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#footer .footer-top #form #errormessage {
-  color: #fff;
-  display: none;
-  background: red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#footer .footer-top #form #sendmessage.show,
-#footer .footer-top #form #errormessage.show,
-#footer .footer-top #form .show {
-  display: block;
-}
-
 #footer .footer-top #form .validation {
   color: red;
   display: none;
@@ -1446,49 +970,6 @@ h6 {
   color: #0a98c0;
 }
 
-/* Portfolio mine */
-#portfolio .brands {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-#portfolio .brands .cremica, #portfolio .brands .godrej{
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-}
-
-#portfolio .brands .cremica img, #portfolio .brands .godrej img{
-  width: 50%;
-  padding-bottom: 20px;
-  align-self: center;
-}
-
-#portfolio .brands .bikano img, #portfolio .brands .winkies img, #portfolio .brands .kiwano img{
-  width: 50%;
-  align-self: center;
-  padding-bottom: 20px;
-}
-
-#portfolio .brands .bikano, #portfolio .brands .winkies, #portfolio .brands .kiwano{
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-}
-  
-#portfolio .brands .godrej img{
-  height: 132px;
-}
-
-#portfolio .brands .bikano img, #portfolio .brands .winkies img{
-  height: 170px;
-}
-
-#portfolio .brands .cremica p, #portfolio .brands .godrej p,#portfolio .brands .bikano p, #portfolio .brands .winkies p, #portfolio .brands .kiwano p{
-  text-align: center;
-  font-size: 16px;
-}
-
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
@@ -1535,14 +1016,6 @@ h6 {
   #why-us .why-us-content {
     padding-top: 30px;
   }
-
-  #pricing {
-    padding-bottom: 30px;
-  }
-
-  #pricing .card {
-    margin-bottom: 50px;
-  }
 }
 
 @media (max-width: 768px) {
@@ -1550,12 +1023,20 @@ h6 {
     bottom: 15px;
   }
 
-  #faq #faq-list a {
-    font-size: 18px;
+  #portfolio .member .member-info-content {
+    height: 38px;
   }
 
-  #faq #faq-list i {
-    top: 13px;
+  #portfolio .member img{
+    height: 220px;
+  }
+
+  #portfolio .member:hover .member-info-content {
+    height: 38px;
+  }
+
+  #footer #form{
+    margin-top: 50px;
   }
 }
 
@@ -1586,21 +1067,6 @@ h6 {
   .section-header p {
     width: 100%;
   }
-
-  #testimonials .testimonial-item {
-    text-align: center;
-  }
-
-  #testimonials .testimonial-item .testimonial-img {
-    float: none;
-    margin: auto;
-  }
-
-  #testimonials .testimonial-item h3,
-  #testimonials .testimonial-item h4,
-  #testimonials .testimonial-item p {
-    margin-left: 0;
-  }
 }
 
 @media (max-width: 574px) {
@@ -1621,5 +1087,35 @@ h6 {
 
   #why-us .row span{
     font-size: 24px;
+  }
+
+  #portfolio .member .member-info-content {
+    height: 38px;
+  }
+
+  #portfolio .member:hover .member-info-content {
+    height: 38px;
+  }
+
+  #portfolio .member img{
+    height: 220px;
+  }
+}
+
+@media (max-width: 800px){
+  #portfolio .member .member-info-content {
+    height: 38px;
+  }
+
+  #portfolio .member:hover .member-info-content {
+    height: 38px;
+  }
+
+  #portfolio .member img{
+    height: 220px;
+  }
+
+  #footer #form{
+    margin-top: 50px;
   }
 }
