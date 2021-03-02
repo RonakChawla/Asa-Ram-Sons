@@ -14,6 +14,18 @@
   flex-direction: row;
 }
 
+.intro-ronak a{
+  display: inline-block;
+  text-decoration: underline;
+  color: #333;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.intro-ronak a:hover{
+  color: #0a98c0;
+}
+
 .heading-ronak-primary{
   font-size: 14px;
   font-weight: bold;
@@ -23,9 +35,13 @@
   padding-top: 20px;
 }
 
-.paragraph-ronak-primary{
-  padding-left: 10px;
-  padding-top: 15px;
+.heading-ronak-secondary{
+  font-size: 14px;
+  font-weight: bold;
+  color: #413e66;
+  text-transform: uppercase;
+  position: relative;
+  padding-top: 40px;
 }
 
 body {
@@ -995,9 +1011,15 @@ h6 {
   width: 360px;
 }
 
-.footer-ronak p{
-  padding-top: 0;
+.footer-ronak a{
+  text-decoration: underline;
+  color: #333;
+  display: inline-block;
   padding-left: 10px;
+}
+
+.footer-ronak a:hover{
+  color: #0a98c0;
 }
 
 .footer-ronak h4{
@@ -1136,8 +1158,22 @@ h6 {
   }
 
   .intro-ronak{
+    padding-top: 0;
     width: 100%;
     justify-content: center;
+  }
+
+  .heading-ronak-secondary{
+    padding-top: 18px;
+    padding-bottom: 0;
+  }
+
+  .heading-ronak-primary{
+    padding-top: 4px;
+  }
+
+  .intro-ronak a{
+    padding-top: 0;
   }
 }
 
