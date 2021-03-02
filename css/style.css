@@ -9,6 +9,25 @@
 # General
 --------------------------------------------------------------*/
 
+.intro-ronak{
+  display: flex;
+  flex-direction: row;
+}
+
+.heading-ronak-primary{
+  font-size: 14px;
+  font-weight: bold;
+  color: #413e66;
+  text-transform: uppercase;
+  position: relative;
+  padding-top: 20px;
+}
+
+.paragraph-ronak-primary{
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
 body {
   background: #fff;
   color: #444;
@@ -521,8 +540,8 @@ h6 {
 }
 
 #about .about-content ul {
+  padding-left: 0;
   list-style: none;
-  padding: 0;
 }
 
 #about .about-content ul li {
@@ -970,6 +989,21 @@ h6 {
   color: #0a98c0;
 }
 
+.footer-ronak{
+  display: flex;
+  flex-direction: row;
+  width: 360px;
+}
+
+.footer-ronak p{
+  padding-top: 0;
+  padding-left: 10px;
+}
+
+.footer-ronak h4{
+  padding-top: 2px;
+}
+
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
@@ -1099,6 +1133,11 @@ h6 {
 
   #portfolio .member img{
     height: 220px;
+  }
+
+  .intro-ronak{
+    width: 100%;
+    justify-content: center;
   }
 }
 
