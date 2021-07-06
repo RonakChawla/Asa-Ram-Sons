@@ -435,7 +435,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="validation"></div>
                 </div>
 
-                <div class="text-center"><button type="submit" form="contactForm">Send Message</button></div>
+                <div class="text-center"><button class="button-cta" type="submit" form="contactForm">Send Message</button></div>
               </form>
             </div>
           </div>
@@ -460,6 +460,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+    
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <script>
+      jQuery('.button-cta').click(function() {
+  ga('send', 'event', 'Form Button Click', 'click', 'Send Message');
+});
+    </script>
 
 </body>
 </html>
