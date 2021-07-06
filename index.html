@@ -465,7 +465,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
     <script>
       jQuery('.button-cta').click(function() {
-  ga('send', 'event', 'Form Button Click', 'click', 'Send Message');
+  gtag('event', 'click', {
+  'event_category': 'Form Submit Button Click',
+  'event_label': 'Form Submitted'
+});
 });
     </script>
 
